@@ -9,6 +9,7 @@ PD Lab Group 5, 5th Sem, Autumn 2017
 6) Deeksha Chaudhury, 715EC2066
 7) Nishant Nishiket, 715EC2068
 8) SVS Sai Kiran Reddy, 715EC2127
+
 under the guidance of Prof Santos Kumar Das, Department of Electronics and Communication Engineering, NIT Rourkela, India
 
 ## Modules implemented in the project are:
