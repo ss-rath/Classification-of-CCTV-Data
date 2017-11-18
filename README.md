@@ -20,7 +20,7 @@ under the guidance of Prof Santos Kumar Das, Department of Electronics and Commu
 5) Centroid Detection of moving vehicles (using haar cascade algorithm)
 
 ## Installing the pre-requisites:
-install_guide.sh contains all the bash commands to install the packages and configure the system. It has been tested on Ubuntu 1
+install_guide.sh contains all the bash commands to install the packages and configure the system. It has been tested on Ubuntu 16.04
 ### I) Python
 Modules that are used are:
 1) Numpy 1.13.0
