@@ -13,8 +13,10 @@ sudo apt-get install -y zlib1g-dev libjpeg-dev libwebp-dev libpng-dev libtiff5-d
 sudo apt-get install -y libdc1394-22-dev libavcodec-dev libavformat-dev libswscale-dev libtheora-dev libvorbis-dev libxvidcore-dev libx264-dev yasm libopencore-amrnb-dev libopencore-amrwb-dev libv4l-dev libxine2-dev
 sudo apt-get install -y libtbb-dev libeigen3-dev
 
-#installing python
-sudo apt-get install -y python-dev python-tk python-numpy 
+#installing python and modules
+sudo apt-get install -y python-dev python-tk python-pip python-numpy 
+sudo pip install PySerial
+sudo pip install imutils
 
 #installing openCV
 sudo apt-get install -y unzip wget
@@ -29,3 +31,6 @@ cmake -DWITH_QT=ON -DWITH_OPENGL=ON -DFORCE_VTK=ON -DWITH_TBB=ON -DWITH_GDAL=ON 
 make -j4
 sudo make install
 sudo ldconfig
+
+#installing arduino
+sudo apt-get install arduino
